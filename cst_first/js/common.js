@@ -21,7 +21,18 @@ $(function(){
 		}
 		
 	});
-	
-	
-	
+	/*
+	var Index;
+	$('.a_se3_main .page').click(function(){
+		var data = getAllModifiedMedicines(viewModel.MedicineCupboard());
+		sendAllMedicines(data);
+		Index = $(this).index();
+		$('.a_se3_main_in .page').eq(Index).show(30);
+		$('.a_se3_main').hide(30);
+	});
+	$('.a_se3_main_in .back').click(function(){
+		$('.a_se3_main_in .page').hide(30);
+		$('.a_se3_main').show(30);
+	});
+	*/
 });

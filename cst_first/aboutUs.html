@@ -4,6 +4,7 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 <title>关于我们</title>
+<link rel="stylesheet" href="css/jquery.fullPage.css" />
 <link rel="stylesheet" href="css/base.css" />
 <link rel="stylesheet" href="css/style.css" />
 </head>
@@ -16,7 +17,7 @@
 	</audio>-->
 	<audio autoplay preload="auto" loop="loop" id="audio">
 		<source src="music/ai.mp3" type="audio/mpeg" />
-		<!--<source src="music/bgMusic.ogg" type="audio/ogg"/>-->
+		<source src="music/ai.ogg" type="audio/ogg"/>
 	 	您的浏览器不支持音频播放。
 	</audio>
 </div>
@@ -78,8 +79,8 @@
 	</div><!--section2-->
 	<div class="section section3">
 		<div class="a_se2_bgh a_se3_bgh">管理团队</div>
-		<div class="a_se3_main">
-			<div class="page">
+		<div class="a_se3_main" id="main">
+			<div class="page page1">
 				<div class="pic"></div>
 				<div class="tit">
 					<h3>熊宏 (董事长/总裁)</h3>
@@ -91,7 +92,7 @@
 					<img src="imgs/about_3_line.png" alt="" />
 				</div>
 			</div><!--坑1-->
-			<div class="page">
+			<div class="page page2" id="page2">
 				<div class="pic pic2"></div>
 				<div class="tit">
 					<h3>常虹 （独立董事）</h3>
@@ -102,18 +103,7 @@
 					<img src="imgs/about_3_line.png" alt="" />
 				</div>
 			</div><!--坑2-->
-			<div class="page">
-				<div class="pic pic3"></div>
-				<div class="tit">
-					<h3>于磊 （副总裁）</h3>
-					<p style="margin-top: 8px;">吉林大学 法律系 学士</p>
-					<p>历任国内知名财富管理公司负责人</p>
-				</div>
-				<div class="right">
-					<img src="imgs/about_3_line.png" alt="" />
-				</div>
-			</div><!--坑3-->
-			<div class="page">
+			<div class="page page3">
 				<div class="pic pic4"></div>
 				<div class="tit">
 					<h3>徐晗坤 （投委会委员/集团顾问）</h3>
@@ -124,8 +114,19 @@
 				<div class="right">
 					<img src="imgs/about_3_line.png" alt="" />
 				</div>
+			</div><!--坑3-->
+			<div class="page page4">
+				<div class="pic pic3"></div>
+				<div class="tit">
+					<h3>于磊 （副总裁）</h3>
+					<p style="margin-top: 8px;">吉林大学 法律系 学士</p>
+					<p>历任国内知名财富管理公司负责人</p>
+				</div>
+				<div class="right">
+					<img src="imgs/about_3_line.png" alt="" />
+				</div>
 			</div><!--坑4-->
-			<div class="page">
+			<div class="page page5">
 				<div class="pic pic5"></div>
 				<div class="tit">
 					<h3>刘秀青 （财视通金融运营总监）</h3>
@@ -136,13 +137,72 @@
 					<img src="imgs/about_3_line.png" alt="" />
 				</div>
 			</div><!--坑5-->
+		</div><!--E-a_se3_main-->
+		<div class="a_se3_main_in">
+			<div class="page page1">
+				<div class="back"></div>
+				<div class="pic"></div>
+				<h2>熊宏 <span>(董事长/总裁)</span></h2>
+				<h4>东北财经大学EMBA</h4>
+				<h4>金千禧金融控股集团创始人</h4>
+				<h4>拥有近20年金融从业经验。</h4>
+				<div class="line"></div>
+				<p>历任国有商业银行支行行长、大型综合金融机构副总裁，具有二十余年金融投资行从业经验，资深金融行业企业管理行业背景。善于资本运作，对国际国内金融有深厚的理财和实践基础</p>
+			</div><!--坑1-->
+			<div class="page page2">
+				<div class="back"></div>
+				<div class="pic"></div>
+				<h2>常虹 <span>(独立董事)</span></h2>
+				<h4>中南大学副教授</h4>
+				<h4>硕士研究生毕业</h4>
+				<h4>深圳中小企业信用再担保委员</h4>
+				<div class="line"></div>
+				<p>深圳市小额贷款行业协会副会长具有深厚的财经专业知识以及精湛的实战经验，曾任职于多家知名金融集团独立董事及投委会顾问，多次对市场的实时动态作出准确预判</p>
+			</div><!--坑2-->
+			<div class="page page3">
+				<div class="back"></div>
+				<div class="pic"></div>
+				<h2>徐晗坤<span>(投委会委员)</span></h2>
+				<h4>伦敦经济学院经济学硕士</h4>
+				<h4>沃顿商学院工商管理硕士</h4>
+				<h4>历任大陆资本董事总经理</h4>
+				<div class="line"></div>
+				<p>曾全面负责美国康地集团(Continental Grain Company)在亚洲的私募股权投资；美国康地集团在亚洲所投企业的运营管理；泰国正大集团和美国康地集团合作基金正大康地产业投资基金的投资。</p>
+			</div><!--坑3-->
+			<div class="page page4">
+				<div class="back"></div>
+				<div class="pic"></div>
+				<h2>于磊<span>(副总裁)</span></h2>
+				<h4>吉林大学 法律系 学士</h4>
+				<h4>历任国内知名财富管理公司负责人</h4>
+				<div class="line"></div>
+				<p>具有十余年的百强金融企业管理经验及丰富的资本市场运作经验，熟悉权益类投资、策略性投资、固定收益、资本对接及资产配置，具有业内极高的影响力及号召力。</p>
+			</div><!--坑4-->
+			<div class="page page5">
+				<div class="back"></div>
+				<div class="pic"></div>
+				<h2>刘秀青<span>(财视通金融运营总监)</span></h2>
+				<h4>华东交通大学 法学系 学士</h4>
+				<h4>历任国内知名互联网金融公司负责人</h4>
+				<div class="line"></div>
+				<p>国内知名律师事务所高级法律顾问，熟悉互联网的运营及数据管理。七年互联网运营管理从业经历，凭其敏锐的眼光、远大格局判断出互联网金融充满机遇的行业前景；擅长互联网金融时代的金融产品创新和运营。</p>
+			</div><!--坑5-->
 		</div>
 		<div class="a_se_down">
 			<img src="imgs/about_down.png" alt="" />
 		</div><!--下拉箭头-->
 	</div>
-	<div class="section section4">第四屏</div>
-	<div class="section section5">第五屏</div>
+	<div class="section section4">
+		<div class="slide">第一屏</div>
+		<div class="slide">第二屏</div>
+		<div class="slide">第三屏</div>
+		<div class="slide">第四屏</div>
+		
+	</div>
+	<div class="section section5">
+		<div class="a_se5_bgh">团队风采</div>
+		<div class="a_se5_bgb"></div>
+	</div>
 	<div class="section section6">第六屏</div>
 </div>
 <script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.js"></script>
@@ -150,9 +210,16 @@
 <script src="js/51size.js"></script>
 <script src="js/common.js"></script>
 <script type="text/javascript">
+//	此项目fullPage.css修改过,(左右滑块样式,左右滑块项目导航颜色)
 	$(function(){
 		$('#fullPage').fullpage({
-			
+			verticalCentered: false,	//内容是否垂直居中
+			scrollingSpeed: 1000,		//滚动速度，单位为毫秒
+			css3: true,					//是否使用 CSS3 transforms 滚动
+			controlArrows: true,		//左右滑块的箭头的背景
+			loopHorizontal: true,		//左右滑块是否循环滑动
+			slidesNavigation: true,		//是否显示左右滑块的项目导航
+			slidesNavPosition: "top"	//左右滑块的项目导航的位置
 		});
 	});
 </script>

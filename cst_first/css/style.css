@@ -47,17 +47,42 @@
 /*section3*/
 .a_se3_bgh { top: 0; right: 20px;}
 .a_se3_main { position: absolute; left: 0; bottom: 5%;}
-.a_se3_main .page { width: 7rem; height: 1.6rem; padding-top: .1rem; margin-bottom: .4rem; background: rgba(224,203,118,.17);}
+.a_se3_main .page { width: 6.5rem; height: 1.6rem; padding-top: .1rem; margin-bottom: .4rem; background: rgba(224,203,118,.17);}
 .a_se3_main .pic { float: left; width: 1.4rem; height: 1.4rem; border: 2px solid #ffd800; border-radius: 50%;  background: url(../imgs/about_3_page1.jpg); background-size: contain; margin: 0 .3rem 0 .2rem;}
 .a_se3_main .tit { float: left; width: 4.6rem; overflow: hidden;}
 .a_se3_main .tit h3 { font-size: .24rem; line-height: 1.5; color: #ffd800;}
 .a_se3_main .tit p { font-size: .2rem; line-height: 1.5; color: #FFFFFF;}
-.a_se3_main .right { float: right; width: .13rem; height: .25rem; margin-right: 10px; margin-top: .55rem;}
+.a_se3_main .right { float: right; width: .13rem; height: .25rem; margin-right: 10px; margin-top: .55rem; display: none;}
 
 .a_se3_main .pic2 {background: url(../imgs/about_3_page2.jpg); background-size: contain;}
 .a_se3_main .pic3 {background: url(../imgs/about_3_page3.jpg); background-size: contain;}
 .a_se3_main .pic4 {background: url(../imgs/about_3_page4.jpg); background-size: contain;}
 .a_se3_main .pic5 {background: url(../imgs/about_3_page5.jpg); background-size: contain;}
+
+.a_se3_main_in { position: absolute; width: 6.7rem; height: 8rem; top: 22%; left: 50%; transform: translateX(-50%); -webkit-transform: translateX(-50%);}
+.a_se3_main_in .page { width: 6.7rem; height: 8rem; padding: .5rem .3rem 0; background: rgba(255,255,255,.2); display: none;}
+.a_se3_main_in .active {display: block;}
+.a_se3_main_in .back { width: .7rem; height: .7rem; background: url(../imgs/about_3_back.png) no-repeat; background-size: contain; position: absolute; top: .1rem; left: .1rem;}
+.a_se3_main_in .pic { width: 2.8rem; height: 2.8rem; border: 2px solid #ffd800; border-radius: 50%; background: url(../imgs/about_3_page1.jpg) no-repeat center top; background-size: cover; margin: 0 auto .15rem;}
+.a_se3_main_in h2 { font-size: .34rem; color: #ffd800; line-height: 1.5; margin-left: 1.8rem;}
+.a_se3_main_in h2 span { font-size: .26rem;}
+.a_se3_main_in h4 { font-size: .24rem; color: #ffd800; line-height: 2; margin-left: 1.8rem}
+.a_se3_main_in .line { width: 100%; height: 2px; background-color: #FFFFFF; margin: .1rem 0;}
+.a_se3_main_in p { font-size: .24rem; line-height: 2; color: #FFFFFF;}
+
+.a_se3_main_in .page2 .pic {background: url(../imgs/about_3_page2.jpg) no-repeat center top; background-size: cover;}
+.a_se3_main_in .page3 .pic {background: url(../imgs/about_3_page4.jpg) no-repeat center top; background-size: cover;}
+.a_se3_main_in .page4 .pic {background: url(../imgs/about_3_page3.jpg) no-repeat center top; background-size: cover;}
+.a_se3_main_in .page5 .pic {background: url(../imgs/about_3_page5.jpg) no-repeat center top; background-size: cover;}
+
+/*section4*/
+
+
+
+
+/*section5*/
+.a_se5_bgh { width: 3.04rem; height: 2.96rem; padding-left: 1.1rem; background: url(../imgs/about_4_bg1.png) no-repeat; background-size: cover; font-size: .3rem; line-height: 2.96rem; color: #FFFFFF; position: absolute; top: 0; right: 0;}
+.a_se5_bgb
 
 
 
