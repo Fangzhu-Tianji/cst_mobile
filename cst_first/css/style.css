@@ -59,21 +59,21 @@
 .a_se3_main .pic4 {background: url(../imgs/about_3_page4.jpg); background-size: contain;}
 .a_se3_main .pic5 {background: url(../imgs/about_3_page5.jpg); background-size: contain;}
 
-.a_se3_main_in { position: absolute; width: 6.7rem; height: 8rem; top: 22%; left: 50%; transform: translateX(-50%); -webkit-transform: translateX(-50%);}
-.a_se3_main_in .page { width: 6.7rem; height: 8rem; padding: .5rem .3rem 0; background: rgba(255,255,255,.2); display: none;}
-.a_se3_main_in .active {display: block;}
-.a_se3_main_in .back { width: .7rem; height: .7rem; background: url(../imgs/about_3_back.png) no-repeat; background-size: contain; position: absolute; top: .1rem; left: .1rem;}
-.a_se3_main_in .pic { width: 2.8rem; height: 2.8rem; border: 2px solid #ffd800; border-radius: 50%; background: url(../imgs/about_3_page1.jpg) no-repeat center top; background-size: cover; margin: 0 auto .15rem;}
-.a_se3_main_in h2 { font-size: .34rem; color: #ffd800; line-height: 1.5; margin-left: 1.8rem;}
-.a_se3_main_in h2 span { font-size: .26rem;}
-.a_se3_main_in h4 { font-size: .24rem; color: #ffd800; line-height: 2; margin-left: 1.8rem}
-.a_se3_main_in .line { width: 100%; height: 2px; background-color: #FFFFFF; margin: .1rem 0;}
-.a_se3_main_in p { font-size: .24rem; line-height: 2; color: #FFFFFF;}
+.a_se4_main_in { width: 6rem; height: 9rem; position: absolute; top: 18%; left: 50%; transform: translateX(-50%); -webkit-transform: translateX(-50%);}
+.a_se4_main_in .page { width: 6rem; height: 8rem; padding: .5rem .3rem 0; background: rgba(255,255,255,.2);}
+.a_se4_main_in .active {display: block;}
+.a_se4_main_in .back { width: .7rem; height: .7rem; background: url(../imgs/about_3_back.png) no-repeat; background-size: contain; position: absolute; top: .1rem; left: .1rem; display: none;}
+.a_se4_main_in .pic { width: 2.8rem; height: 2.8rem; border: 2px solid #ffd800; border-radius: 50%; background: url(../imgs/about_3_page1.jpg) no-repeat center top; background-size: cover; margin: 0 auto .15rem;}
+.a_se4_main_in h2 { font-size: .34rem; color: #ffd800; line-height: 1.5; margin-left: 1.4rem;}
+.a_se4_main_in h2 span { font-size: .26rem;}
+.a_se4_main_in h4 { font-size: .24rem; color: #ffd800; line-height: 2; margin-left: 1.4rem}
+.a_se4_main_in .line { width: 100%; height: 2px; background-color: #FFFFFF; margin: .1rem 0;}
+.a_se4_main_in p { font-size: .24rem; line-height: 2; color: #FFFFFF;}
 
-.a_se3_main_in .page2 .pic {background: url(../imgs/about_3_page2.jpg) no-repeat center top; background-size: cover;}
-.a_se3_main_in .page3 .pic {background: url(../imgs/about_3_page4.jpg) no-repeat center top; background-size: cover;}
-.a_se3_main_in .page4 .pic {background: url(../imgs/about_3_page3.jpg) no-repeat center top; background-size: cover;}
-.a_se3_main_in .page5 .pic {background: url(../imgs/about_3_page5.jpg) no-repeat center top; background-size: cover;}
+.a_se4_main_in .page2 .pic {background: url(../imgs/about_3_page2.jpg) no-repeat center top; background-size: cover;}
+.a_se4_main_in .page3 .pic {background: url(../imgs/about_3_page4.jpg) no-repeat center top; background-size: cover;}
+.a_se4_main_in .page4 .pic {background: url(../imgs/about_3_page3.jpg) no-repeat center top; background-size: cover;}
+.a_se4_main_in .page5 .pic {background: url(../imgs/about_3_page5.jpg) no-repeat center top; background-size: cover;}
 
 /*section4*/
 

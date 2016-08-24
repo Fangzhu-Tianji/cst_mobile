@@ -36,6 +36,7 @@ html.fp-enabled,
 .fp-slide, .fp-slidesContainer {
     height: 100%;
     display: block;
+    position: relative;	/*后来自己加的*/
 }
 .fp-slides {
     z-index:1;
