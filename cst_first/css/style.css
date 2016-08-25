@@ -47,13 +47,16 @@
 /*section3*/
 .a_se3_bgh { top: 0; right: 20px;}
 .a_se3_main { position: absolute; left: 0; bottom: 5%;}
-.a_se3_main .page { width: 6.5rem; height: 1.6rem; padding-top: .1rem; margin-bottom: .4rem; background: rgba(224,203,118,.17);}
+.a_se3_main .page { width: 6.5rem; height: 1.6rem; padding-top: .1rem; margin-bottom: .4rem;}
+.a_se3_main .page:nth-child(odd) {background: rgba(224,203,118,.17);}
+.a_se3_main .page:nth-child(even) {background: rgba(255,255,255,.17);}
 .a_se3_main .pic { float: left; width: 1.4rem; height: 1.4rem; border: 2px solid #ffd800; border-radius: 50%;  background: url(../imgs/about_3_page1.jpg); background-size: contain; margin: 0 .3rem 0 .2rem;}
 .a_se3_main .tit { float: left; width: 4.6rem; overflow: hidden;}
 .a_se3_main .tit h3 { font-size: .24rem; line-height: 1.5; color: #ffd800;}
 .a_se3_main .tit p { font-size: .2rem; line-height: 1.5; color: #FFFFFF;}
 .a_se3_main .right { float: right; width: .13rem; height: .25rem; margin-right: 10px; margin-top: .55rem; display: none;}
 
+/*section4*/
 .a_se3_main .pic2 {background: url(../imgs/about_3_page2.jpg); background-size: contain;}
 .a_se3_main .pic3 {background: url(../imgs/about_3_page3.jpg); background-size: contain;}
 .a_se3_main .pic4 {background: url(../imgs/about_3_page4.jpg); background-size: contain;}
@@ -75,17 +78,44 @@
 .a_se4_main_in .page4 .pic {background: url(../imgs/about_3_page3.jpg) no-repeat center top; background-size: cover;}
 .a_se4_main_in .page5 .pic {background: url(../imgs/about_3_page5.jpg) no-repeat center top; background-size: cover;}
 
-/*section4*/
-
-
-
 
 /*section5*/
 .a_se5_bgh { width: 3.04rem; height: 2.96rem; padding-left: 1.1rem; background: url(../imgs/about_4_bg1.png) no-repeat; background-size: cover; font-size: .3rem; line-height: 2.96rem; color: #FFFFFF; position: absolute; top: 0; right: 0;}
-.a_se5_bgb
+.a_se5_bgb { width: 4.68rem; height: 10.12rem; background: url(../imgs/about_4_bg2.png); background-size: cover; position: absolute; top: 0; left: 0; z-index: 1;}
+.a_se5_main { width: 90%; position: absolute; top: 12%; left: 3%; z-index: 2;}
+.a_se5_main .page { width: 3.62rem; height: 1.8rem; border-radius: 5px; margin-bottom: .2rem;}
+.a_se5_main .page1 { background: url(../imgs/about_5_bg1.jpg); background-size: cover;}
+.a_se5_main .page2 { background: url(../imgs/about_5_bg2.jpg); background-size: cover;}
+.a_se5_main .page3 { background: url(../imgs/about_5_bg3.jpg); background-size: cover;}
+.a_se5_main .page4 { background: url(../imgs/about_5_bg4.jpg); background-size: cover;}
+.a_se5_main .page5 { background: url(../imgs/about_5_bg5.jpg); background-size: cover;}
 
+/*section6*/
+.a_se6_bgh { width: 3.04rem; height: 2.96rem; padding-left: 1.1rem; background: url(../imgs/about_4_bg1.png) no-repeat; background-size: cover; font-size: .3rem; line-height: 2.96rem; color: #FFFFFF; position: absolute; top: 5%; right: 0;}
+.a_se6_bg1 { width: 7.04rem; height: 7.21rem; background: url(../imgs/about_6_bg1.png) no-repeat; background-size: cover; position: absolute; top: 20%; left: 50%; transform: translateX(-50%);}
+.a_se6_bg2 { width: 100%; height: .2rem; background: url(../imgs/about_6_bg2.png) no-repeat; background-size: cover; position: absolute; left: 0; bottom: 10%;}
 
+/*section7*/
+.a_se7_bgh { width: 2.73rem; height: 3.05rem; background: url(../imgs/about_2_bg_head.png); background-size: cover; position: absolute; right: 10px; top: 20px; font-size: .4rem; text-align: center; line-height: 3.05rem; color: #FFFFFF; }
+.a_se7_bg { width: 6.5rem; height: 9.14rem; background: url(../imgs/about_2_bg.png); background-size: cover; position: absolute; top: 10%; left: 0;}
+.a_se7_main { width: 100%; position: absolute; left: 0; bottom: 10%;}
+.a_se7_main .page { height: 1.2rem; padding: .2rem 0 0 .25rem; margin-bottom: .3rem; background: rgba(255,216,0,.3);}
+.a_se7_main .pic { width: .8rem; height: .8rem; margin-right: .2rem;}
+.a_se7_main .tit p { font-size: .28rem; line-height: 1.5; color: #FFFFFF;}
+.a_se7_main .code { width: 4.14rem; height: 2.27rem; background: url(../imgs/about_7_code.png) no-repeat; background-size: cover; margin: 0 auto;}
 
+.a_se7_main .page1 { width: 55%;}
+.a_se7_main .page1 .pic { background: url(../imgs/about_7_page1.png) no-repeat; background-size: cover;}
+.a_se7_main .page2 { width: 65%;}
+.a_se7_main .page2 .pic { background: url(../imgs/about_7_page2.png) no-repeat; background-size: cover;}
+.a_se7_main .page3 { width: 75%;}
+.a_se7_main .page3 .pic { background: url(../imgs/about_7_page3.png) no-repeat; background-size: cover;}
+.a_se7_main .page4 { width: 85%;}
+.a_se7_main .page4 .pic { background: url(../imgs/about_7_page4.png) no-repeat; background-size: cover;}
+.a_se7_main .page5 { width: 95%;}
+.a_se7_main .page5 .pic { background: url(../imgs/about_7_page5.png) no-repeat; background-size: cover;}
+
+/*动效*/
 
 
 

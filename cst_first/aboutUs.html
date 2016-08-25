@@ -1,8 +1,12 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<meta charset="utf-8">
+<meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+<meta content="yes" name="apple-mobile-web-app-capable"><!--当网站添加到主屏幕快速启动方式，可隐藏地址栏，仅针对ios的safari-->
+<meta content="black" name="apple-mobile-web-app-status-bar-style"><!--将网站添加到主屏幕快速启动方式，仅针对ios的safari顶端状态条的样式-->
+<meta content="telephone=no" name="format-detection"><!--忽略将页面中的数字识别为电话号码-->
+<meta content="email=no" name="format-detection"><!--忽略Android平台中对邮箱地址的识别-->
 <title>关于我们</title>
 <link rel="stylesheet" href="css/jquery.fullPage.css" />
 <link rel="stylesheet" href="css/base.css" />
@@ -218,8 +222,70 @@
 	<div class="section section5">
 		<div class="a_se5_bgh">团队风采</div>
 		<div class="a_se5_bgb"></div>
-	</div>
-	<div class="section section6">第六屏</div>
+		<div class="a_se5_main">
+			<div class="page page1 fl"></div>
+			<div class="page page2 fr"></div>
+			<div class="page page3 fl"></div>
+			<div class="page page4 fr"></div>
+			<div class="page page5 fl"></div>
+		</div>
+		<div class="a_se_down">
+			<img src="imgs/about_down.png" alt="" />
+		</div><!--下拉箭头-->
+	</div><!--E_section5-->
+	<div class="section section6">
+		<div class="a_se6_bgh">公司环境</div>
+		<div class="a_se6_bg1"></div>
+		<div class="a_se6_bg2"></div>
+		<div class="a_se_down">
+			<img src="imgs/about_down.png" alt="" />
+		</div><!--下拉箭头-->
+	</div><!--E_section6-->
+	<div class="section section7">
+		<div class="a_se7_bgh">联系我们</div>
+		<div class="a_se7_bg"></div>
+		<div class="a_se7_main">
+			<div class="page page1">
+				<div class="pic fl"></div>
+				<div class="tit fl">
+					<p>客服热线</p>
+					<p>400-966-8883</p>
+				</div>
+			</div><!--page1-->
+			<div class="page page2">
+				<div class="pic fl"></div>
+				<div class="tit fl">
+					<p>商务合作</p>
+					<p>0755-23917305</p>
+				</div>
+			</div><!--page2-->
+			<div class="page page3">
+				<div class="pic fl"></div>
+				<div class="tit fl">
+					<p>微信</p>
+					<p>cstjr58</p>
+				</div>
+			</div><!--page3-->
+			<div class="page page4">
+				<div class="pic fl"></div>
+				<div class="tit fl">
+					<p>邮箱</p>
+					<p>cstbusiness@cst58.com</p>
+				</div>
+			</div><!--page4-->
+			<div class="page page5">
+				<div class="pic fl"></div>
+				<div class="tit fl">
+					<p>地址</p>
+					<p>深圳市福田区益田路6001号太平金融大厦28楼</p>
+				</div>
+			</div><!--page5-->
+			<div class="code"></div>
+		</div>
+		<div class="a_se_down">
+			<img src="imgs/about_down.png" alt="" />
+		</div><!--下拉箭头-->
+	</div><!--E_section7-->
 </div>
 <script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.js"></script>
 <script src="http://apps.bdimg.com/libs/jquery-fullPage/2.7.4/jquery.fullPage.min.js"></script>
@@ -235,7 +301,9 @@
 			controlArrows: true,		//左右滑块的箭头的背景
 			loopHorizontal: true,		//左右滑块是否循环滑动
 			slidesNavigation: true,		//是否显示左右滑块的项目导航
-			slidesNavPosition: "top"	//左右滑块的项目导航的位置
+			slidesNavPosition: "top",	//左右滑块的项目导航的位置
+			loopBottom: true			//滚动到最底部后是否滚回顶部
+//			continuousVertical: true	//是否循环滚动，与 loopTop 及 loopBottom 不兼容
 		});
 	});
 </script>
