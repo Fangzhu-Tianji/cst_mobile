@@ -21,4 +21,5 @@ $(function(){
 		}
 		
 	});
+	audio.loop = true; //歌曲循环
 });
