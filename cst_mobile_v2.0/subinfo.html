@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+<meta charset="UTF-8">
+<meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta content="black" name="apple-mobile-web-app-status-bar-style">
+<meta content="telephone=no" name="format-detection">
+<meta content="email=no" name="format-detection">
+<title>财视通</title>
+<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="css/validate.css" />
+<link rel="stylesheet" href="css/style.css">
+<script src="js/51size.js"></script>
+</head>
+<body style="background:url(imgs/subinfo-h5.jpg) top center no-repeat;background-size:cover;">
+<div class="subinfo-form">
+	<form id="form">
+		<div class="wrap">
+			<input class="info username" type="text" placeholder="请输入2-5字中文姓名" data-required="true" data-descriptions="username"/>
+		</div>
+		<div class="wrap">
+			<input class="info usertel" type="text" placeholder="请输入11位手机号码" data-validate="phone" data-describedby="phone-description"/>
+		</div>
+		<div class="btn">
+			<input class="sub" type="submit" value="立即预约"/>
+		</div>
+	</form>
+</div>
+<div class="subinfo-in subinfo_in" style="display:none;"></div>
+<script src="js/zepto.js"></script>
+<script src="js/zepto-mvalidate.js"></script>
+<script src="js/subinfoform.js"></script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+@charset "utf-8";
+
+/***********************subinfo********************/
+.subinfo-form {width:6.2rem; height:4rem; position:absolute; bottom:1.5rem; left:50%; -webkit-transform:translateX(-50%); transform:translateX(-50%);}
+.subinfo-form .wrap {width:100%; height:.8rem; margin-bottom:.32rem;}
+.subinfo-form .wrap .info {width:100%; height:.8rem; border:none 0; font-size:.3rem; line-height:.8rem; vertical-align: middle; padding-left:.94rem; color: #333;}
+.subinfo-form .wrap .username {background:#dcdcdc url(../imgs/subinfo-username.png) no-repeat left center; background-position-x:.34rem; background-size:.3rem .33rem;}
+.subinfo-form .wrap .usertel {background:#dcdcdc url(../imgs/subinfo-usertel.png) no-repeat left center; background-position-x:.34rem; background-size:.35rem .37rem;}
+.subinfo-form .btn {width:100%; height:1rem;}
+.subinfo-form .btn .sub {width:100%; height:1rem; border: none 0; border-bottom:2px solid #a79215; border-top:1px solid rgba(255,255,255,.36); background-color:#fdd90a; color: #4d4201; font-size:.28rem;}
+.subinfo-in {width:100%; height:100%; background:url(../imgs/subinfo-in.jpg) no-repeat top center; background-size:cover; position:absolute; top:0; left:0; z-index: 10;}
