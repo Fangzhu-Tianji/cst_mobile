@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+<meta charset="UTF-8">
+<meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta content="black" name="apple-mobile-web-app-status-bar-style">
+<meta content="telephone=no" name="format-detection">
+<meta content="email=no" name="format-detection">
+<title>财视通-开启财富思想觉醒之路！</title>
+<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="css/validate.css" />
+<link rel="stylesheet" href="css/style.css">
+<script src="script/lib/51size.js"></script>
+</head>
+<body style="background:#f8f8f8;">
+<nav class="register-nav">
+	<a class="back" href="javascript:;"></a>
+	<h2 class="tit">找回密码</h2>
+</nav>
+<div class="register-form register_form">
+	<form id="form1">
+		<div class="wrap clearfix">
+			<div class="icon icon-phone"></div>
+			<div class="input">
+				<input class="phone" type="text" placeholder="请输入手机号" data-validate="phone" data-describedby="phone-description"/>
+			</div>
+		</div>
+		<div class="wrap clearfix">
+			<div class="icon icon-code"></div>
+			<div class="input">
+				<input class="code" type="text" placeholder="请输入验证码"/>
+				<button class="test" type="button">获取验证码</button>
+			</div>
+		</div>
+		<div class="wrap clearfix">
+			<div class="icon icon-pass"></div>
+			<div class="input">
+				<input class="pass" id="pwd" type="password" placeholder="请输入新的登录密码" data-required="true" data-descriptions="password"/>
+			</div>
+		</div>
+		<div class="wrap clearfix">
+			<div class="icon icon-pass"></div>
+			<div class="input">
+				<input class="pass" id="confirmpwd" type="password" placeholder="请确认新的登录密码" data-required="true" data-descriptions="confirmpassword" data-conditional="confirmpwd"/>
+			</div>
+		</div>
+		<div class="subn">
+			<input type="submit" value="完成" />
+		</div>
+	</form>
+</div>
+<script src="script/lib/jquery.min.js"></script>
+<script src="script/lib/jquery-mvalidate.js"></script>
+<script src="script/login.js"></script>
+</body>
+</html>

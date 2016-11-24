@@ -23,7 +23,7 @@
          佛祖保佑       永无BUG
 */
 @charset "utf-8";
-*{-webkit-box-sizing: border-box;box-sizing: border-box;/*-webkit-user-select: none;*/outline: none;-webkit-tap-highlight-color: transparent;-webkit-tap-highlight-color: transparent;}
+*{-webkit-box-sizing: border-box;box-sizing: border-box;/*-webkit-user-select: none;*/ /*添加此样式会造成iOS下input无法输入*/outline: none;-webkit-tap-highlight-color: transparent;-webkit-tap-highlight-color: transparent;}
 html,body,h1,h2,h3,h4,h5,h6,div,dl,dt,dd,ul,ol,li,p,blockquote,pre,hr,figure,table,caption,th,td,form,fieldset,legend,input,button,textarea,menu{margin:0;padding:0;}
 header,footer,section,article,aside,nav,hgroup,address,figure,figcaption,menu,details{display:block;}
 table{border-collapse:collapse;border-spacing:0;}
@@ -46,8 +46,6 @@ audio, canvas, progress, video { display: inline-block; vertical-align: baseline
 body { height: 100%; overflow-x: hidden; -webkit-overflow-scrolling: touch; }
 img { border: none; vertical-align: middle; }
 body,textarea,input,button,select,keygen,legend{color:#ccc;outline:0;}
-
-
 
 a { text-decoration: none; outline: none; /*设置的tap  A标签的时候出现的黑色高亮*/ -webkit-tap-highlight-color: transparent; }
 a:active { outline: 0; }

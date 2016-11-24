@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+<meta charset="UTF-8">
+<meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta content="black" name="apple-mobile-web-app-status-bar-style">
+<meta content="telephone=no" name="format-detection">
+<meta content="email=no" name="format-detection">
+<title>财视通</title>
+<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="css/validate.css" />
+<link rel="stylesheet" href="css/style.css">
+<script src="script/lib/51size.js"></script>
+</head>
+<body style="background:url(css/img/login_bg.jpg) no-repeat top center;background-size:cover;">
+<nav class="login-nav">
+	<a class="back" href="javascript:;"></a>
+	<h2 class="tit">登录</h2>
+</nav>
+<div class="login-form login_form">
+	<form id="form1">
+		<div class="wrap clearfix">
+			<div class="icon icon-phone"></div>
+			<div class="input">
+				<input class="phone" type="text" value="请输入手机号" data-validate="phone" data-describedby="phone-description"/>
+			</div>
+		</div>
+		<div class="wrap clearfix">
+			<div class="icon icon-pass"></div>
+			<div class="input">
+				<input class="pass" type="password" value="请输入登录密码" data-required="true" data-descriptions="password"/>
+			</div>
+		</div>
+		<div class="subn">
+			<input type="submit" value="登录" />
+		</div>
+		<div class="login-tips">
+			<p class="login-tips-in">
+				<a href="javascript:;">现在注册</a>
+				<span>|</span>
+				<a href="javascript:;">忘记密码？</a>
+			</p>
+		</div>
+	</form>
+</div>
+<div class="login-footer"></div>
+<script src="script/lib/jquery.min.js"></script>
+<script src="script/lib/jquery-mvalidate.js"></script>
+<script src="script/login.js"></script>
+</body>
+</html>
